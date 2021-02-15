@@ -1,0 +1,16 @@
+{
+  "name": "@uai-nebula/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "@uai-nebula/components": "^1.0.0",
+    "vue": "^3.0.5"
+  }
+}

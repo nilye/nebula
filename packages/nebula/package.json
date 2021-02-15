@@ -1,0 +1,17 @@
+{
+  "name": "uai-nebula",
+  "version": "3.0.0",
+  "description": "> TODO: description",
+  "author": "",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/nebula.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@uai-nebula/components": "^1.0.0",
+    "@uai-nebula/core": "^1.0.0",
+    "@uai-nebula/webpack": "^1.0.0"
+  }
+}

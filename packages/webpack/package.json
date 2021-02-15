@@ -1,0 +1,12 @@
+{
+  "name": "@uai-nebula/webpack",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@linaria/webpack-loader": "^3.0.0-beta.1"
+  }
+}

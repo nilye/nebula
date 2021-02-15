@@ -1,0 +1,3 @@
+const defaultOption = {
+	prefix: 'n'
+}
