@@ -4,9 +4,18 @@ import { css } from "@linaria/core";
 // import { rgba } from "@/shared/color";
 // import { typography } from "@/style/theme/typography";
 
-const s = 46
 export const btn = css`
-	font-size: ${s * 2}px
+  outline: none;
+	appearance: none;
+	padding: 0 10px;
+	cursor: pointer;
+	height: 30px;
+	min-width: 80px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	text-transform: uppercase;
+	
 `
 
 // export const btn = css`

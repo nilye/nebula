@@ -5,11 +5,14 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const NebulaPlugin = require('@uai-nebula/webpack')
 
+const resolve = p => path.resolve(__dirname, '../', p)
+
+
 module.exports = {
 	mode: 'development',
-	entry: './src/index.ts',
+	entry: resolve('src/index.ts'),
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: resolve('dist'),
 		filename: 'index.js'
 	},
 	watchOptions: {
@@ -18,7 +21,7 @@ module.exports = {
 	devServer: {
 		hot: true,
 		port: 3000,
-		contentBase: path.resolve(__dirname, 'dist')
+		contentBase: resolve('dist')
 	},
 	resolve: {
 		extensions: ['.ts', '.js', '.json', '.vue'],
@@ -52,8 +55,9 @@ module.exports = {
 		new VueLoaderPlugin(),
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			template: 'src/index.html',
+			template: resolve('src/index.html'),
 			inject: 'body'
 		}),
 	]
 }
+

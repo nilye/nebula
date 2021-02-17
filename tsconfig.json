@@ -3,7 +3,7 @@
     "target": "es2016",
     "module": "esnext",
     "lib": ["es6", "dom", "esnext"],
-    "rootDir": "./packages",
+    "rootDir": ".",
     "allowJs": true,
     "composite": true,
     "moduleResolution": "node",
@@ -12,20 +12,21 @@
     "esModuleInterop": true,
     "types": ["node", "jest"],
     "skipLibCheck": true,
-    "baseUrl": "./packages",
     "typeRoots": ["node_modules"],
+    "baseUrl": "./packages",
     "paths": {
       "@uai-nebula/*": ["./*/src"]
     }
   },
   "include": [
-    "packages/*/src",
-    "packages/*/package.json",
-    "global.d.ts"
+    "global.d.ts",
+    "shims.d.ts",
+    "packages/*/src/**/*",
+    "packages/*/package.json"
   ],
   "exclude": [
     "node_modules",
     "packages/*/node_modules",
-    "packages/*/test",
+    "**/*.test.ts",
   ]
 }

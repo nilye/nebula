@@ -45,8 +45,11 @@ function createConfig(){
 	const input = resolve('./src/index.ts')
 	const output = [
 		{
-			file: resolve(`lib/${pkgName}.esm.js`),
+			file: resolve(`lib/nebula-${pkgName}.esm.js`),
 			format: 'es'
+		}, {
+			file: resolve(`lib/nebula-${pkgName}.cjs.js`),
+			format: 'cjs'
 		}
 	]
 	const plugins = [

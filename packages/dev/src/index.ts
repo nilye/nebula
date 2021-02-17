@@ -1,5 +1,5 @@
 import { createApp, h } from "vue";
-import Nebula from "@uai-nebula/core";
+import Nebula from "@uai-nebula/plugin";
 import App from './App.vue'
 
 const app = createApp(App)

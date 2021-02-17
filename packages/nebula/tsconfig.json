@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "references": [
     {
-      "path": "../core"
+      "path": "../plugin"
     }, {
       "path": "../webpack"
     }, {

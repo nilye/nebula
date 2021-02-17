@@ -2,15 +2,11 @@
   "name": "@uai-nebula/core",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "",
-  "homepage": "",
+  "author": "nil <entaroalsace@gmail.com>",
+  "homepage": "https://github.com/nilye/nebula#readme",
   "license": "ISC",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": ""
-  },
+  "main": "lib/core.esm.js",
   "dependencies": {
-    "@uai-nebula/components": "^1.0.0",
     "vue": "^3.0.5"
   }
 }

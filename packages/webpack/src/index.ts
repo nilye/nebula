@@ -1,3 +1,4 @@
+import defaultOptions from "./options";
 
 
 class NebulaPlugin {
@@ -6,7 +7,10 @@ class NebulaPlugin {
 
 	constructor (options = {}) {
 		this.pluginName = 'nebula-plugin'
-		this.options = options
+		this.options = {
+			...defaultOptions,
+			...options,
+		}
 	}
 
 	apply(compiler){
@@ -21,9 +25,7 @@ class NebulaPlugin {
 				}
 			}]
 		})
-		console.log(rules)
 	}
 }
-
 
 export default NebulaPlugin

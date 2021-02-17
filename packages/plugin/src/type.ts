@@ -2,7 +2,7 @@ import { Component } from "vue";
 
 export interface NebulaContext {
 	theme: {
-		color: Record<string, any>,
+		palette: Record<string, any>,
 		current: string
 	}
 }

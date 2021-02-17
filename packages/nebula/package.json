@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@uai-nebula/components": "^1.0.0",
-    "@uai-nebula/core": "^1.0.0",
+    "@uai-nebula/plugin": "^1.0.0",
     "@uai-nebula/webpack": "^1.0.0"
   }
 }

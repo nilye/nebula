@@ -1,4 +1,4 @@
-import Nebula from '@uai-nebula/core'
+import Nebula from '@uai-nebula/plugin'
 import * as components from '@uai-nebula/components'
 import NebulaWebpackPlugin from '@uai-nebula/webpack'
 
